@@ -6,9 +6,14 @@
     "BlockSmelterMixin",
     "PlayerMixin",
     "PrimedTntMixin",
-    "LifeStealerDyingStateMixin"
+    "LifeStealerDyingStateMixin",
+    "LivingEntityInvisSyncMixin"
   ],
-  "client": [],
+  "client": [
+    "HumanoidArmorLayerMixin",
+    "LivingEntityRenderStateMixin",
+    "LivingEntityRendererMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   },

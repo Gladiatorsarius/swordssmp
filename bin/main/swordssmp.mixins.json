@@ -12,9 +12,14 @@
     "BoneMealItemMixin",
     "CommandsMixin",
     "ExperienceOrbMixin",
-    "PrimedTntMixin"
+    "PrimedTntMixin",
+    "LivingEntityInvisSyncMixin"
   ],
-  "client": [],
+  "client": [
+    "HumanoidArmorLayerMixin",
+    "LivingEntityRenderStateMixin",
+    "LivingEntityRendererMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   },
