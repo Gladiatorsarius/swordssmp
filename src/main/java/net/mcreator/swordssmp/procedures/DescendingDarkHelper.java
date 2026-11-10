@@ -11,7 +11,7 @@ import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.component.CustomData;
 
 public class DescendingDarkHelper {
-	public static final long COOLDOWN_TICKS = 200L;
+	public static final long COOLDOWN_TICKS = 600L;
 
 	public static boolean resetDiveAttributes(Player player) {
 		boolean needsReset = false;
