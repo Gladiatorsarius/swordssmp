@@ -10,7 +10,7 @@ import net.minecraft.world.item.component.CustomData;
 import net.minecraft.nbt.CompoundTag;
 
 public class ChaosCrystalItemInInventoryTickProcedure {
-	private static final Set<String> COOLDOWN_KEYS = Set.of("ChorusSlayerCooldownUntil", "GhostBladeCooldownUntil", "EarthWaveCooldownUntil", "GodsViewCooldownUntil", "PhantomBladeCooldownUntil", "WindBladeCooldownUntil",
+	private static final Set<String> COOLDOWN_KEYS = Set.of("ChorusSlayerCooldownUntil", "DescendingDarkCooldownUntil", "DescendingDarkCooldownOwner", "GhostBladeCooldownUntil", "EarthWaveCooldownUntil", "GodsViewCooldownUntil", "PhantomBladeCooldownUntil", "WindBladeCooldownUntil",
 			"WardenBlasterCooldownUntil", "TNTSwordCooldownUntil", "TNTSword2CooldownUntil", "TNTSword2CooldownOwner", "ThunderCooldownUntil");
 
 	public static void execute(Entity entity) {
