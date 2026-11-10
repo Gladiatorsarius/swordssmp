@@ -45,6 +45,7 @@ public class SwordssmpModItems {
 	public static Item THE_ABOMINATION;
 	public static Item SWIFT_BLUE;
 	public static Item POWERFUL_RED;
+	public static Item DESCENDING_DARK;
 
 	// Items shown in the mod's creative tab, in display order. Assigned during load(), consumed lazily by the tab builders.
 	public static List<Item> SWORDSMP_TAB_ITEMS;
@@ -79,9 +80,10 @@ public class SwordssmpModItems {
 		THE_ABOMINATION = register("the_abomination", TheAbominationItem::new);
 		SWIFT_BLUE = register("swift_blue", DualBlade2Item::new);
 		POWERFUL_RED = register("powerful_red", DualBlade1Item::new);
+		DESCENDING_DARK = register("descending_dark", DescendingDarkItem::new);
 
 		SWORDSMP_TAB_ITEMS = List.of(WIND_BLADE, CHORUS_SLAYER, SMELTER_PICKAXE, THUNDER_SWORD, PHANTOM_BLADE, TNT_SWORD, TNT_SWORD_2, WARDEN_BLASTER, DRAGON_SLAYER, GRAY_APPLE, LIFE_STEALER, EARTH_WAVE_SWORD, LEVITATION_WAND,
-				REINFORCED_STICK, TNT_ROD, GODS_VIEW, BREACHER, GHOST_BLADE, BERSERK_HAND, ANCIENT_VOID_RELIC, AMETHYST_SWORD, CORROSIVE_DUST, XP_ORB, SHARPENED_AMETHYST_SHARD, TEST_ROD, SWIFT_BLUE, POWERFUL_RED);
+				REINFORCED_STICK, TNT_ROD, GODS_VIEW, BREACHER, GHOST_BLADE, BERSERK_HAND, ANCIENT_VOID_RELIC, AMETHYST_SWORD, CORROSIVE_DUST, XP_ORB, SHARPENED_AMETHYST_SHARD, TEST_ROD, SWIFT_BLUE, POWERFUL_RED, DESCENDING_DARK);
 	}
 
 	private static <I extends Item> I register(String name, Function<Item.Properties, ? extends I> supplier) {
